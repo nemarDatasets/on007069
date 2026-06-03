@@ -1,29 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on007069",
-  "source": "openneuro",
-  "source_id": "ds007069",
+  "pipeline_stage": "validated",
   "title": "PURSUE MMN Auditory Oddball",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007069.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007069",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007069",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "13.3 GB (283 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises event-related potential (ERP) recordings from a passive auditory oddball task collected as part of the PURSUE project across three undergraduate institutions. Participants were presented with standard and deviant auditory stimuli while EEG was recorded, enabling investigation of the mismatch negativity (MMN) component and other auditory processing mechanisms. The dataset includes demographic information and standardized task parameters documented in the ERP CORE framework.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "mismatch negativity"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "passive listening task"
+    }
+  ],
+  "source_hash": "4efbdf40dc26eafd4005ac989b23f08b3e53bce61925325e6dd2911df6909bbf"
 }
